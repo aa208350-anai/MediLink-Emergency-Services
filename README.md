@@ -76,5 +76,3 @@ By streamlining access, improving transparency, and reducing delays, MediLink ai
 # Clone the repository
 git clone https://github.com/Bakumpe/MediLink-Emergency-Services.git
 
-# Install dependencies
-cd medilink-ug
