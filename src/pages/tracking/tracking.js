@@ -1,5 +1,5 @@
  // Simulate ETA countdown
-    let eta = 4;
+    let eta = 4; // ETA = Estimated time of arrival in minutes
     const etaEl = document.querySelector('.eta-time');
 
     const countdown = setInterval(() => {
@@ -15,6 +15,6 @@
     // Cancel button
     document.querySelector('.icon-btn:last-child').addEventListener('click', function () {
         if (confirm('Are you sure you want to cancel this booking?')) {
-            window.location.href = '../index.html';
+            window.location.href = '../../../index.html'; // Redirect to home page
         }
     });

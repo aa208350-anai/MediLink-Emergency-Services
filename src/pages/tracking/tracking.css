@@ -87,8 +87,15 @@
 .p-dot.active  { background: var(--red); color: #fff; box-shadow: 0 0 0 6px rgba(232, 39, 42, 0.2); }
 .p-dot.pending { background: var(--border); color: var(--text-muted); }
 
-.p-info h5     { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
-.p-info span   { font-size: 12px; color: var(--text-muted); }
+.p-info h5     { 
+    font-size: 14px; 
+    font-weight: 600; 
+    margin-bottom: 2px; 
+}
+.p-info span   { 
+    font-size: 12px; 
+    color: var(--text-muted); 
+}
 
 /* ── Driver Card ───────────────────────────────────────── */
 .driver-card {

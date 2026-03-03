@@ -117,7 +117,7 @@
     background: var(--red);
     transform: scaleX(0);
     transform-origin: left;
-    transition: transform 0.3s;
+    transition: transform 0.7s;
 }
 
 .provider-card:hover {

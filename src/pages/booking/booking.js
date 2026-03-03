@@ -1,6 +1,7 @@
  // Confirm dispatch → redirect to tracking
     document.querySelector('.btn-submit').addEventListener('click', function () {
-        window.location.href = 'tracking.html';
+        alert('Booking confirmed! An ambulance is on its way.');
+        window.location.href = '../tracking/tracking.html';
     });
 
     // Live summary update on provider change
